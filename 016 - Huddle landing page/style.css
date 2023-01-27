@@ -219,14 +219,53 @@ footer{
     margin-top: 3rem;
 }
 
+.links-section ul{
+    list-style-type: none;
+}
+
 .links-section li{
     margin-bottom: 1.5rem;
 }
 
 /* Footer socials */
 
+.socials-section{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
 
+.socials-section img{
+    width: 2em;
+    border: 1px solid white;
+    padding: .5em;
+    border-radius: 2em;
+}
 
 /* Footer Copyright */
 
+.copyright-section{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
 
+.copyright-section p{
+    font-size: .6em;
+}
+
+/* Footer signature */
+
+.attribution{
+    display: flex;
+    justify-content: center;
+    font-size: .65em;
+    margin-bottom: 1.5rem;
+}
+
+.attribution a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #ff52bf;
+}
