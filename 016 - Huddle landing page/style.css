@@ -1,0 +1,232 @@
+/* RESETS */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    display: block;
+}
+
+/* CSS style guide infos*/
+
+body{
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main, header, footer{
+    max-width: 375px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* BG Header */
+
+header{
+    background: url("assets/images/bg-hero-mobile.svg");
+    background-color: #edfbfe;
+}
+
+/* Logo et bouton Try It Free */
+
+.logo-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.5rem 1rem;
+}
+
+.logo-section img{
+    width: 30%;
+}
+
+.logo-section a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 0.6em;
+    background-color: white;
+    padding: 0.3rem 1.3rem;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(95, 100, 114, 0.171);
+}
+
+/* Header first section */
+
+.top-section{
+    display: grid;
+    place-items: center;
+    margin: 5rem 2rem 2rem 2rem;
+    text-align: center;
+}
+
+.top-section-text{
+    margin-bottom: 4rem;
+}
+
+.top-section h1{
+    font-size: 1.4em;
+    margin-bottom: 1.5rem;
+}
+
+.top-section p{
+    font-size: 0.9em;
+    line-height: 26px;
+    margin-bottom: 2.5rem;
+}
+
+.top-section a{
+    color: white;
+    font-size: 0.75em;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: hsl(322, 100%, 66%);
+    margin-bottom: 1.5rem;
+    padding: 0.8rem 3.6rem;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(95, 100, 114, 0.171);
+}
+
+.top-section img{
+    width: 100%;
+}
+
+/* All cards */
+
+.card-section{
+    max-height: 520px;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    padding: 3rem 2rem;
+    margin: 3rem 1.5rem;
+    box-shadow: 0 0 8px rgba(95, 100, 114, 0.171);
+    border-radius: 20px;
+}
+
+.card-section h2{
+    font-size: 1.2em;
+    margin-bottom: 1rem;
+}
+
+.card-section p{
+    font-size: 0.81em;
+    color: hsl(208, 11%, 55%);
+    line-height: 24px;
+}
+
+.card-section img{
+    width: 100%;
+    margin-bottom: 3.5rem;
+}
+
+/* Ready to build card */
+
+main{
+    position: relative;
+    margin-bottom: 10rem;
+}
+
+.bottom-section{
+    position: absolute;
+    z-index: 2;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    padding: 2.5rem 1.5rem;
+    margin: 3rem 0.7rem;
+    box-shadow: 0 0 8px rgba(95, 100, 114, 0.171);
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+}
+
+.bottom-section h2{
+    font-size: 1em;
+    margin-bottom: 1.5rem;
+}
+
+.bottom-section a{
+    color: white;
+    font-size: 0.6em;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: hsl(322, 100%, 66%);
+    padding: 0.8rem 2.5rem;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(95, 100, 114, 0.171);
+}
+
+/* Footer global & logo*/
+
+footer{
+    padding-top: 9rem;
+    color: white;
+    background-color: #00252e;
+}
+
+#footer-logo{
+    width: 50%;
+    margin: 0 0.7rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Footer contact */
+
+.contact-section{
+    margin: 0 0.7rem;
+}
+
+.contact-info-section{
+    display: flex;
+    align-items: flex-start;
+    vertical-align: text-top;
+    gap: 2rem;
+    margin-bottom: 1rem;
+}
+
+.contact-info-section p{
+    margin-top: 0;
+    font-size: 0.925em;
+    max-height: max-content;
+    line-height: 1.6em;
+    text-align: left;
+    width: auto;
+}
+
+.contact-info-section img{
+    width: 1em;
+    margin-top: .35em;
+}
+
+
+/* Footer list */
+
+.links-section{
+    margin: 0 0.7rem;
+    margin-top: 3rem;
+}
+
+.links-section li{
+    margin-bottom: 1.5rem;
+}
+
+/* Footer socials */
+
+
+
+/* Footer Copyright */
+
+
