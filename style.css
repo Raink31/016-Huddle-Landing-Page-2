@@ -269,6 +269,11 @@ footer{
     border: 1px solid white;
     padding: .5em;
     border-radius: 2em;
+    transition: all 0.4s;
+}
+
+.socials-section path{
+    transition: all 0.4s;
 }
 
 .socials-section svg:hover{
