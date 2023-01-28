@@ -1,0 +1,497 @@
+/* RESETS */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    display: block;
+}
+
+/* CSS style guide infos*/
+
+body{
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    min-height: 100vh;
+    max-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main, header, footer{
+    max-width: 767.99px;
+    width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* BG Header */
+
+header{
+    background: url("assets/images/bg-hero-mobile.svg");
+    background-color: #edfbfe;
+}
+
+/* Logo et bouton Try It Free */
+
+.logo-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.5rem 1rem;
+}
+
+.logo-section img{
+    width: 30%;
+}
+
+.logo-section a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 0.6em;
+    background-color: white;
+    padding: 0.3rem 1.3rem;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(95, 100, 114, 0.171);
+    transition: all 0.4s;
+}
+
+.logo-section a:hover{
+    color: hsl(208, 11%, 55%);
+}
+
+/* Header first section */
+
+.top-section{
+    display: grid;
+    place-items: center;
+    margin: 5rem 2rem 2rem 2rem;
+    text-align: center;
+}
+
+.top-section-text{
+    margin-bottom: 4rem;
+}
+
+.top-section h1{
+    font-size: 1.4em;
+    margin-bottom: 1.5rem;
+}
+
+.top-section p{
+    font-size: 0.9em;
+    line-height: 26px;
+    margin-bottom: 2.5rem;
+}
+
+.top-section a{
+    color: white;
+    font-size: 0.65em;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: hsl(322, 100%, 66%);
+    margin-bottom: 1.5rem;
+    padding: 0.8rem 3.6rem;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(95, 100, 114, 0.171);
+    transition: all 0.4s;
+}
+
+.top-section a:hover{
+    background-color: hsla(322, 100%, 66%, 0.60);
+}
+
+.top-section img{
+    width: 100%;
+}
+
+/* All cards */
+
+.card-section{
+    max-height: max-content;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    padding: 3rem 2rem;
+    margin: 3rem 1.5rem;
+    box-shadow: 0 0 8px rgba(95, 100, 114, 0.171);
+    border-radius: 20px;
+}
+
+.card-section h2{
+    font-size: 1.2em;
+    margin-bottom: 1rem;
+}
+
+.card-section p{
+    font-size: 0.81em;
+    color: hsl(208, 11%, 55%);
+    line-height: 24px;
+}
+
+.card-section img{
+    width: 100%;
+    margin-bottom: 3.5rem;
+}
+
+/* Ready to build card */
+
+main{
+    position: relative;
+    margin-bottom: 10rem;
+}
+
+.bottom-section{
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    padding: 2.5rem 1.5rem;
+    margin: 3rem 0.7rem;
+    box-shadow: 0 0 8px rgba(95, 100, 114, 0.171);
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+}
+
+.bottom-section h2{
+    font-size: 1em;
+    margin-bottom: 1.5rem;
+}
+
+.bottom-section a{
+    color: white;
+    font-size: 0.6em;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: hsl(322, 100%, 66%);
+    padding: 0.8rem 2.5rem;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(95, 100, 114, 0.171);
+    transition: all 0.4s;
+}
+
+.bottom-section a:hover{
+    background-color: hsla(322, 100%, 66%, 0.60);
+}
+
+/* Footer global & logo*/
+
+footer{
+    padding-top: 9rem;
+    color: white;
+    background-color: #00252e;
+}
+
+#footer-logo{
+    width: 50%;
+    margin: 0 0.7rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Footer contact */
+
+.contact-section{
+    margin: 0 0.7rem;
+}
+
+.contact-info-section{
+    display: flex;
+    align-items: flex-start;
+    vertical-align: text-top;
+    gap: 2rem;
+    margin-bottom: 1rem;
+}
+
+.contact-info-section p{
+    margin-top: 0;
+    font-size: 0.925em;
+    max-height: max-content;
+    line-height: 1.6em;
+    text-align: left;
+    width: auto;
+}
+
+.contact-info-section img{
+    width: 1em;
+    margin-top: .35em;
+}
+
+
+/* Footer list */
+
+.links-section{
+    margin: 0 0.7rem;
+    margin-top: 3rem;
+}
+
+.links-section ul{
+    list-style-type: none;
+}
+
+.links-section ul a{
+    color: white;
+    text-decoration: none;
+}
+
+.links-section ul a:hover{
+    text-decoration: underline;
+}
+
+.links-section li{
+    margin-bottom: 1.5rem;
+}
+
+/* Footer socials */
+
+.socials-section{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.socials-section svg{
+    width: 2em;
+    height: 2em;
+    border: 1px solid white;
+    padding: .5em;
+    border-radius: 2em;
+}
+
+.socials-section svg:hover{
+    border: 1px solid hsla(322, 100%, 66%);
+}
+
+.socials-section svg:hover path{
+    stroke: #ff52bf;
+}
+
+/* Footer Copyright */
+
+.copyright-section{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.copyright-section p{
+    font-size: .6em;
+}
+
+/* Footer signature */
+
+.attribution{
+    display: flex;
+    justify-content: center;
+    font-size: .65em;
+    margin-bottom: 1.5rem;
+}
+
+.attribution a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #ff52bf;
+}
+
+/* Format Desktop */
+
+@media screen and (min-width: 768px){
+    main, header, footer{
+    max-width: 100vw;
+    }
+
+    /* BG Header */
+
+    header{
+        background: url("assets/images/bg-hero-desktop.svg");
+        background-color: #edfbfe;
+        background-repeat: no-repeat;
+    }
+
+    /* Logo et bouton Try It Free */
+
+    .logo-section{
+        margin: 1.5rem 4rem;
+    }
+
+    .logo-section img{
+        width: 10%;
+    }
+
+    .logo-section a{
+        font-size: 0.7em;
+        padding: 0.6rem 3rem;
+        border-radius: 50px;
+    }
+
+    /* Header first section */
+
+    .top-section{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2rem;
+        margin: 5rem 4rem 2rem 4rem;
+        text-align: center;
+    }
+
+    .top-section-text{
+        margin-bottom: 0;
+        text-align: left;
+        max-width: 40em;
+    }
+
+    .top-section h1{
+        font-size: 2.6em;
+    }
+
+    .top-section p{
+        font-size: 1.2em;
+        line-height: 36px;
+    }
+
+    .top-section a{
+        font-size: 0.8em;
+        padding: 1rem 4rem;
+    }
+
+    .top-section img{
+        width: 50%;
+    }
+
+    /* All cards */
+
+    .card-section{
+        max-height: 40rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 3rem 3rem;
+        margin: 2rem 4rem;
+        text-align: left;
+        gap: 4rem;
+    }
+
+    .card-text{
+        max-width: 31em;
+        margin-left: 2rem;
+    }
+
+    .card-section h2{
+        font-size: 2em;
+    }
+
+    .card-section p{
+        font-size: 1.1em;
+        color: hsl(208, 11%, 55%);
+        line-height: 36px;
+    }
+
+    .card-section img{
+        width: 30%;
+        margin-bottom: 0;
+        order: 2;
+    }
+
+    #imagetotheleft{
+        order: 0;
+        margin-left: 3rem;
+    }
+
+    /* Ready to build card */
+
+    .bottom-section{
+        left: 0;
+        right: 0;
+        z-index: 2;
+        padding: 2.5rem 1.5rem;
+        margin: 3rem 0.7rem;
+        max-width: 40rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .bottom-section h2{
+        font-size: 1.4em;
+    }
+
+    .bottom-section a{
+        font-size: .8em;
+        padding: 1rem 3.4rem;
+    }
+
+    /* Footer global & logo*/
+
+    #footer-logo{
+        width: 15%;
+        margin: 0 4rem;
+        margin-bottom: 2rem;
+        margin-top: 1rem;
+    }
+
+    /* Footer contact */
+
+    .contact-section{
+        margin: 0 4rem;
+        max-width: 24rem;
+    }
+
+    .contact-section-flex{
+        display: flex;
+        max-width: 90vw;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .contact-info-section img{
+        width: 1em;
+        margin-top: .35em;
+    }
+
+    /* Footer list */
+
+    .links-section{
+        margin: 0;
+    }
+
+    .links-section ul{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        flex-wrap: wrap;
+        height: 9rem;
+        gap: 1.5rem 8rem;
+        width: 20rem;
+    }
+
+    .links-section li{
+        margin: 0;
+    }
+
+    /* Footer Copyright */
+
+    .copyright-section{
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 2rem;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    .copyright-section p{
+        font-size: .8em;
+    }
+}
