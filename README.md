@@ -19,7 +19,7 @@ Your challenge is to build out this page and get it looking as close to the desi
 
 ## Links
 
-- Solution URL: --
+- Solution URL: https://www.frontendmentor.io/solutions/alternative-huddle-landing-page-responsive-mobile-first--xIdhU7HKk
 - Live Site URL: https://raink31.github.io/016-Huddle-Landing-Page-2/
 
 
