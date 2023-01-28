@@ -241,6 +241,15 @@ footer{
     list-style-type: none;
 }
 
+.links-section ul a{
+    color: white;
+    text-decoration: none;
+}
+
+.links-section ul a:hover{
+    text-decoration: underline;
+}
+
 .links-section li{
     margin-bottom: 1.5rem;
 }
@@ -256,6 +265,7 @@ footer{
 
 .socials-section svg{
     width: 2em;
+    height: 2em;
     border: 1px solid white;
     padding: .5em;
     border-radius: 2em;
@@ -263,8 +273,10 @@ footer{
 
 .socials-section svg:hover{
     border: 1px solid hsla(322, 100%, 66%);
-    color: hsla(322, 100%, 66%);
-    fill: hsla(322, 100%, 66%);
+}
+
+.socials-section svg:hover path{
+    stroke: #ff52bf;
 }
 
 /* Footer Copyright */
